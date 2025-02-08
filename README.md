@@ -1,7 +1,7 @@
 ### Competitions
 
 1. House Prices - Advanced Regression Techniques
-- technqiue suggested: feaeture engineering, random forest, gradient boosting
+- technique suggested: feature engineering, random forest, gradient boosting
 - metrics: root-means-squared-error
 ```
 @misc{house-prices-advanced-regression-techniques,
