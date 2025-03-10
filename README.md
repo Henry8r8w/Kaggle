@@ -12,7 +12,7 @@ The goal is to identify the important explanatory variables out of the 76 given 
 
 
 
-The three figures above indicate linear regression (based on ridge selected features) correlation matrix as the preliminary analysis, ensemble price and predicted price, and distribution differences in prediction to true values. It make sense to use XGboost variant of random forest to help with imbalance dataset and our calling in the cross-validation should help us choose model performance
+The three figures above indicate correlation matrix as the preliminary analysis, ensemble price and predicted price, and distribution differences in prediction to true values. It make sense to use XGboost variant of random forest to help with imbalance dataset and our calling in the cross-validation should help us choose model performance
 
 Reference: *https://kaggle.com/competitions/house-prices-advanced-regression-techniques*
 
