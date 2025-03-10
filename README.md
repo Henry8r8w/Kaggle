@@ -1,14 +1,15 @@
-### Competitions
+# Kaggle
+Kaggle Competition
 
-1. House Prices - Advanced Regression Techniques
-- technique suggested: feature engineering, random forest, gradient boosting
-- metrics: root-means-squared-error
-```
-@misc{house-prices-advanced-regression-techniques,
-    author = {Anna Montoya and DataCanary},
-    title = {House Prices - Advanced Regression Techniques},
-    year = {2016},
-    howpublished = {\url{https://kaggle.com/competitions/house-prices-advanced-regression-techniques}},
-    note = {Kaggle}
-}
-```
+### 
+The goal is to identify the important explanatory variables out of the 76 given and use the them to make prediction of house prices
+
+<p align="center">
+<img src="https://github.com/Henry8r8w/Kaggle/tree/main/house-prices/figures/cor-matrix.png" />
+<img src="https://github.com/Henry8r8w/Kaggle/tree/main/house-prices/figures/prediction_visualization.png" />
+<img src="https://github.com/Henry8r8w/Kaggle/tree/main/house-prices/figures/price_distributions.png" />
+</p>
+
+
+The two figures above indicate linear regression (based on ridge selected features) correlation matrix as the preliminary analysis. It make sense to use XGboost variant of random forest to help with imbalance dataset and our calling in the cross-validation should help us choose model performance
+source: https://kaggle.com/competitions/house-prices-advanced-regression-techniques
